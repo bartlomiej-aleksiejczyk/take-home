@@ -1,31 +1,31 @@
 ## Rules
 
-- add/remove/modify existing code to achieve the end result (some code needs a refactor)
-- don't install additional packages
-- you need to use `zustand`, but it's up to you to decide what state should be global
-- write the code like it's a real feature
+-   add/remove/modify existing code to achieve the end result (some code needs a refactor)
+-   don't install additional packages
+-   you need to use `zustand`, but it's up to you to decide what state should be global
+-   write the code like it's a real feature
 
 ### Cards
 
-- add expand/collapse functionality
-- make sure the delete button works
-- add animations
+-   add expand/collapse functionality
+-   make sure the delete button works
+-   add animations
 
 ### Deleted Cards
 
-- display the number of deleted cards
-- reveal deleted cards after user clicks the "Reveal" button - deleted card variant shouldn't contain the description
-- write the code, so in the future you will be able to add "revert" functionality
+-   display the number of deleted cards
+-   reveal deleted cards after user clicks the "Reveal" button - deleted card variant shouldn't contain the description
+-   write the code, so in the future you will be able to add "revert" functionality
 
 ### Behavior
 
-- cards by default should be collapsed
-- expanded/deleted cards' state needs to be persisted after refreshing (regardless of isVisible property)
+-   cards by default should be collapsed
+-   expanded/deleted cards' state needs to be persisted after refreshing (regardless of isVisible property)
 
 ### Miscellaneous
 
-- add a refresh button (just like the "Reveal" button)
-- create generic `<ToggleButton />`
+-   add a refresh button (just like the "Reveal" button)
+-   create generic `<ToggleButton />`
 
 ### Additional
 
