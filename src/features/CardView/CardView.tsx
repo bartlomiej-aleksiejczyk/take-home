@@ -33,7 +33,7 @@ export const CardView: FC<CardViewProps> = ({
             >
                 Refresh
             </Button>
-            <div className="w-full h-screen flex gap-x-16 flex flex-row items-start">
+            <div className="w-full min-h-[60vh] flex gap-x-16 flex flex-row items-start">
                 <div className="w-[33vw]">
                     <div>
                         <h1 className="mb-1 font-medium text-lg">
