@@ -37,7 +37,7 @@ Testing framework isn't installed, so instead just explain whether you think it'
 
 ## Live Version
 
-You can access the live application at this [link](https://cards-display-application.vercel.app/).:
+You can access the live application at this [link](https://cards-display-application.vercel.app/).
 
 ## Technical Choices Explanation
 
