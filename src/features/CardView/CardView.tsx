@@ -65,7 +65,7 @@ export const CardView: FC<CardViewProps> = ({
                             className="border-2 border-gray-300 rounded px-2 mb-1.5 bg-white hover:bg-gray-100 transition-colors ease-out duration-250 active:scale-95"
                             onClick={toggleRevealDeletedCards}
                         >
-                            Reveal
+                            {isDeletedCardsHidden ? 'Hide' : 'Reveal'}
                         </Button>
                     </div>
                     {isDeletedCardsHidden && (
